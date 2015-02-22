@@ -6,9 +6,9 @@
 [run_analysis.R](run_analysis.R): Script to download data, run analysis, and produce *TidyData.txt* file with average of each variable for each activity and each subject.
 
 ## Running the analysis
-[run_analysis.R](run_analysis.R) script can run from Rstudio by sourcing it or directly using R on a command line. 
+[run_analysis.R](run_analysis.R) script can run from RStudio or R command line by sourcing it. 
 The script will download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip data and unzip it in the project directory.
-It will then perform the analysis and create *TidyData.txt*
+It will then perform the analysis and create *tidyData.txt*
 
 ## Dataset License
 The License was taken from the original dataset. 
@@ -19,7 +19,7 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-## Other Related Publications:
+## Other Related Publications
 [2] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz.  Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic. Journal of Universal Computer Science. Special Issue in Ambient Assisted Living: Home Care.   Volume 19, Issue 9. May 2013
 
 [3] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 4th International Workshop of Ambient Assited Living, IWAAL 2012, Vitoria-Gasteiz, Spain, December 3-5, 2012. Proceedings. Lecture Notes in Computer Science 2012, pp 216-223. 

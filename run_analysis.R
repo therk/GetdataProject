@@ -35,7 +35,7 @@ measurements <- merged.measurements[c(mean.columns, std.columns)]
 
 # Creates an independent tidy data set with the average of each variable 
 # for each activity and each subject
-data <- cbind(merged.activity, merged.subject, measurements)
-tidyData <- aggregate(mergedData, by=list(Activity = data$Activity, Subject=data$Subject), mean)
+mergedData <- cbind(merged.activity, merged.subject, measurements)
+tidyData <- aggregate(. ~ Activity+Subject, data=mergedData, FUN=mean)
 
 write.table(tidyData, file = "tidyData.txt", row.name=FALSE)
